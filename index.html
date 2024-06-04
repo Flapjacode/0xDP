@@ -10,7 +10,15 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+ <style>
+        .row {
+            display: flex;
+        }
+        .w3-third {
+            flex: 1;
+        }
+        /* Add additional styling as needed */
+    </style></head>
 <script src='https://terminal.jup.ag/main-v2.js'></script>
 <body id="myPage">
 
@@ -33,11 +41,8 @@
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>0xDreams</a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
-  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  <a href="https://flapjacode.github.io/0xDreamscape/" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>0xDreams</a>
+
     <div class="w3-dropdown-hover w3-hide-small">
     <button class="w3-button" title="Notifications">0xLinks <i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
@@ -51,10 +56,7 @@
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Team</a>
-    <a href="#work" class="w3-bar-item w3-button">Work</a>
-    <a href="#pricing" class="w3-bar-item w3-button">Pricing</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    
     
 	
 	<a href="#" class="w3-bar-item w3-button">Search</a>
@@ -168,7 +170,9 @@
 </div>
 
 
-<div class="w3-third w3-margin-bottom">
+
+
+       <div class="w3-row-padding w3-left w3-padding-16 w3-first w3-margin-bottom">
       <ul class="w3-ul w3-border w3-hover-shadow">
         <li class="w3-theme">
           <p class="w3-xlarge">Explorer</p>
@@ -182,15 +186,30 @@
           <h2 class="w3-wide"><i class="fa fa-usd"></i> 2</h2>
           <span class="w3-opacity">per month</span>
         </li>
-     	<li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large" action=><i class="fa fa-check"></i> Sign Up</button>
-        </li>
+           
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <!-- Identify your business so that you can collect the payments -->
+    <input type="hidden" name="business" value="your_paypal_email@example.com">
+
+    <!-- Specify a Buy Now button -->
+    <input type="hidden" name="cmd" value="_xclick">
+
+    <!-- Specify details about the item that buyers will purchase -->
+    <input type="hidden" name="item_name" value="Example Item">
+    <input type="hidden" name="amount" value="19.95">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <!-- Display the payment button -->
+    <button class="w3-button w3-teal w3-padding-large"> <i type="submit" class="btn"><i class="fa fa-credit-card"></i> Sign up</button>
+</form>
       </ul>
     </div>
 
-    <div class="w3-third w3-margin-bottom">
+ 
+        <!-- Trader Column -->
+       <div class="w3-row-padding w3-center w3-padding-16 w3-second w3-margin-bottom">
       <ul class="w3-ul w3-border w3-hover-shadow">
-        <li class="w3-theme-l2">
+        <li class="w3-theme">
           <p class="w3-xlarge">Trader</p>
         </li>
         <li class="w3-padding-16"><b>Newsletter</b> Market Updates & Trade Signals</li>
@@ -202,13 +221,30 @@
           <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
           <span class="w3-opacity">per month</span>
         </li>
-        	<li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large" action=><i class="fa fa-check"></i> Sign Up</button>
-        </li>
+            
+		<li><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <!-- Identify your business so that you can collect the payments -->
+    <input type="hidden" name="business" value="your_paypal_email@example.com">
+
+    <!-- Specify a Buy Now button -->
+    <input type="hidden" name="cmd" value="_xclick">
+
+    <!-- Specify details about the item that buyers will purchase -->
+    <input type="hidden" name="item_name" value="Example Item">
+    <input type="hidden" name="amount" value="19.95">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <!-- Display the payment button -->
+    <button class="w3-button w3-teal w3-padding-large"> <i type="submit" class="btn"><i class="fa fa-credit-card"></i> Sign up</button>
+</form>
       </ul>
     </div>
 
-    <div class="w3-third w3-margin-bottom">
+
+        <!-- Developer Column -->
+      
+            <!-- Content for Developer -->
+    <div class="w3-row-padding w3-right w3-padding-16 w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-hover-shadow">
         <li class="w3-theme">
           <p class="w3-xlarge">Developer</p>
@@ -222,12 +258,29 @@
           <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
           <span class="w3-opacity">per month</span>
         </li>
-       	<li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large" action=><i class="fa fa-check"></i> Sign Up</button>
-        </li>
+       	
+         
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <!-- Identify your business so that you can collect the payments -->
+    <input type="hidden" name="business" value="your_paypal_email@example.com">
+
+    <!-- Specify a Buy Now button -->
+    <input type="hidden" name="cmd" value="_xclick">
+
+    <!-- Specify details about the item that buyers will purchase -->
+    <input type="hidden" name="item_name" value="Example Item">
+    <input type="hidden" name="amount" value="19.95">
+    <input type="hidden" name="currency_code" value="USD">
+
+    <!-- Display the payment button -->
+    <button class="w3-button w3-teal w3-padding-large"> <i type="submit" class="btn"><i class="fa fa-credit-card"></i> Sign up</button>
+</form>
       </ul>
     </div>
+	
 	</body>
 	
 	
 	</html>
+	
+	
