@@ -4,29 +4,13 @@
 <head>
 <!-- Attach the loading script in your <head /> -->
 
-<title>0xSolutions Sign-up</title>
+<title>0xSolutions</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        .w3-row-padding {
-            display: flex;
-            justify-content: space-between;
-        }
-        .w3-margin-bottom {
-            margin-bottom: 16px;
-        }
-        .w3-third {
-            width: calc(33.333% - 32px); 
-            margin-right: 16px; 
-        }
-        .w3-third:last-child {
-            margin-right: 0; 
-        }
-        
-    </style></head>
+</head>
 <script src='https://terminal.jup.ag/main-v2.js'></script>
 <body id="myPage">
 
@@ -49,8 +33,11 @@
 <div class="w3-top">
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="https://flapjacode.github.io/0xDreamscape/" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>0xDreams</a>
-
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>0xDreams</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
     <div class="w3-dropdown-hover w3-hide-small">
     <button class="w3-button" title="Notifications">0xLinks <i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
@@ -64,7 +51,10 @@
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Pricing</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     
 	
 	<a href="#" class="w3-bar-item w3-button">Search</a>
@@ -177,171 +167,400 @@
   </div>
 </div>
 
- <div class="w3-row-padding">
-
 
 <div class="w3-third w3-margin-bottom">
-  <ul class="w3-ul w3-border w3-hover-shadow">
-    <li class="w3-theme">
-      <p class="w3-xlarge">Explorer</p>
-    </li>
-    <li class="w3-padding-16"><b>Newsletter (Market Updates)</b> Email</li>
-    <li class="w3-padding-16"><b>Discord</b> Access to our learning courses and docs</li>
-    <li class="w3-padding-16"><b>5</b> 0xTemplates (Smart Contract, Coin Generation or Meta Data, Nft Creation, Futures Strategies)</li>
-    <li class="w3-padding-16"><b>5</b> Coding choices</li>
-    <li class="w3-padding-16"><b>Endless</b> Support</li>
-    <li class="w3-padding-16">
-      <h1 class="w3-wide"><i class="fa fa-usd"></i> 2</h1>
-      <span class="w3-opacity">per month</span>
-    </li>
-    <li class="w3-theme-l5 w3-padding-24">
-      <!-- PayPal Button -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="YOUR_HOSTED_BUTTON_ID">
-        <button class="w3-button w3-teal w3-padding-large" type="submit">
-          <i class="fa fa-paypal"></i> Pay with PayPal
-        </button>
-      </form>
-      <!-- CashApp Link (Replace with your CashApp link) -->
-      <a href="https://cash.app/$YourCashApp" target="_blank" class="w3-button w3-teal w3-padding-large">
-        <i class="fa fa-money"></i> Pay with CashApp
-      </a>
-      <!-- Credit Card Payment (This will depend on your payment processor) -->
-      <button class="w3-button w3-teal w3-padding-large" onclick="openCreditCardForm()">
-        <i class="fa fa-credit-card"></i> Pay with Credit Card
-      </button>
-      <!-- Solana Wallet Connect Button -->
-      <button class="w3-button w3-teal w3-padding-large" onclick="connectSolanaWallet()">
-        <i class="fa fa-wallet"></i> Pay with Solana
-      </button>
-    </li>
-  </ul>
-</div>
-
-<script>
-// Function to handle credit card payment form
-function openCreditCardForm() {
-  // Open credit card form logic here
-}
-</script>
-<script>
-// Function to handle Solana wallet connection
-function connectSolanaWallet() {
-  // Connect to Solana wallet logic here
-}
-</script>
-
- 
-     <div class="w3-third w3-margin-bottom">
-  <ul class="w3-ul w3-border w3-hover-shadow">
-    <li class="w3-theme">
-      <p class="w3-xlarge">Trader</p>
-    </li>
-    <li class="w3-padding-16"><b>Newsletter</b> Market Updates & Trade Signals</li>
-    <li class="w3-padding-16"><b>Discord + Advanced  </b><b> Access</b> to our learning courses and docs</li>
-    <li class="w3-padding-16"><b>25</b> 0xTemplates (Smart contract, CoinGenration or Meta Data, Nft Creation, Futures Strategies)</li>
-    <li class="w3-padding-16"><b>10</b> Coding Choices</li>
-    <li class="w3-padding-16"><b>Endless</b> Support</li>
-    <li class="w3-padding-16">
-      <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Explorer</p>
+        </li>
+        <li class="w3-padding-16"><b>Newsletter ( Market Updates )</b>Email</li>
+        <li class="w3-padding-16"><b>Discord</b> Access to our learning courses and docs</li>
+        <li class="w3-padding-16"><b>5</b> 0xTemplates (Smart Contract, CoinGenration or Meta Data, Nft Creation, Futures Strategies)</li>
+		<li class="w3-padding-16"><b>5</b> Coding choices</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+	    <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 2</h2>
           <span class="w3-opacity">per month</span>
-    </li>
-    <li class="w3-theme-l5 w3-padding-24">
-      <!-- PayPal Button -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="YOUR_HOSTED_BUTTON_ID">
-        <button class="w3-button w3-teal w3-padding-large" type="submit">
-          <i class="fa fa-paypal"></i> Pay with PayPal
-        </button>
-      </form>
+        </li>
+     	<li class="w3-theme-l5 w3-padding-24">
+                <!-- PayPal Button -->
+     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="M7P26XW3JJM8E" />
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Subscribe" />
+</form>
       <!-- CashApp Link (Replace with your CashApp link) -->
-      <a href="https://cash.app/$YourCashApp" target="_blank" class="w3-button w3-teal w3-padding-large">
+      <a href="https://cash.app/$Radical0xEd" target="_blank" class="w3-button w3-green w3-padding-large">
         <i class="fa fa-money"></i> Pay with CashApp
       </a>
-      <!-- Credit Card Payment (This will depend on your payment processor) -->
-      <button class="w3-button w3-teal w3-padding-large" onclick="openCreditCardForm()">
-        <i class="fa fa-credit-card"></i> Pay with Credit Card
-      </button>
-      <!-- Solana Wallet Connect Button -->
+<!-- Credit Card Payment Modal (hidden by default) -->
+<div id="creditCardPaymentModal" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+    <header class="w3-container w3-teal"> 
+      <span onclick="document.getElementById('creditCardPaymentModal').style.display='none'" 
+            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2>Enter Credit Card Details</h2>
+    </header>
+    <div class="w3-container">
+      <form action="your_server_side_processing_script" method="post">
+        <!-- Include form fields for credit card details -->
+        <label for="cc-name">Name on Card</label>
+        <input type="text" id="cc-name" name="cardname" required>
+
+        <label for="cc-number">Credit Card Number</label>
+        <input type="text" id="cc-number" name="cardnumber" required>
+
+        <label for="cc-exp">Expiry Date</label>
+        <input type="text" id="cc-exp" name="expdate" required>
+
+        <label for="cc-cvv">CVV</label>
+        <input type="text" id="cc-cvv" name="cvv" required>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w3-button w3-teal w3-padding-large w3-margin-top">
+          <i class="fa fa-credit-card"></i> Submit Payment
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Button to Open the Modal -->
+<button class="w3-button w3-blue w3-padding-large" onclick="openCreditCardForm()">
+  <i class="fa fa-credit-card"></i> Pay with Credit Card
+</button>
+
+<script>
+// Function to open the credit card payment modal
+function openCreditCardForm() {
+  document.getElementById('creditCardPaymentModal').style.display='block';
+}
+</script>
+
+<!-- Solana Wallet Connect Button -->
+<button class="w3-button w3-teal w3-padding-large" onclick="document.getElementById('solanaPaymentModal').style.display='block'">
+  <i class="fa fa-wallet"></i> Pay with Solana
+</button>
+
+<!-- Solana Payment Modal -->
+<div id="solanaPaymentModal" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+    <header class="w3-container w3-teal"> 
+      <span onclick="document.getElementById('solanaPaymentModal').style.display='none'" 
+            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2>Connect Solana Wallet</h2>
+    </header>
+    <div class="w3-container">
+      <p>Please connect your Solana wallet to proceed with the payment.</p>
+      <!-- Add any additional instructions or information here -->
       <button class="w3-button w3-teal w3-padding-large" onclick="connectSolanaWallet()">
-        <i class="fa fa-wallet"></i> Pay with Solana
+        <i class="fa fa-wallet"></i> Connect Wallet
       </button>
-    </li>
-  </ul>
+    </div>
+  </div>
 </div>
 
 <script>
-// Function to handle credit card payment form
-function openCreditCardForm() {
-  // Open credit card form logic here
-}
-</script>
-<script>
 // Function to handle Solana wallet connection
 function connectSolanaWallet() {
-  // Connect to Solana wallet logic here
+  // Close the modal
+  document.getElementById('solanaPaymentModal').style.display='none';
+  
+  // Example logic (you'll need to replace this with actual Solana wallet integration)
+  // Assume you're using a Solana wallet adapter library (e.g., @solana/wallet-adapter)
+  const solanaWallet = new SolanaWalletAdapter();
+
+  // Connect to the user's Solana wallet
+  solanaWallet.connect().then(() => {
+    // Wallet connected successfully
+    // Now you can initiate the payment transaction
+    const recipientAddress = '6Ddkx3RJWWQHkbaChPbqeezfJSzGxMv4sNyqceD8o6GA';
+    const amountInSOL = 25; // Amount in SOL (adjust as needed)
+
+    // Example: Initiate a payment transaction
+    solanaWallet.sendPayment(recipientAddress, amountInSOL).then(() => {
+      // Payment successful
+      alert(`Payment of ${amountInSOL} SOL sent to ${recipientAddress}`);
+    }).catch((error) => {
+      // Handle payment error
+      console.error('Payment error:', error);
+    });
+  }).catch((error) => {
+    // Handle wallet connection error
+    console.error('Wallet connection error:', error);
+  });
 }
 </script>
 
 
+</div>
+        </li>
+      </ul>
+    </div>
 
     <div class="w3-third w3-margin-bottom">
-  <ul class="w3-ul w3-border w3-hover-shadow">
-    <li class="w3-theme">
-      <p class="w3-xlarge">Developer</p>
-    </li>
-    <li class="w3-padding-16"><b>All Access</b>  Market Updates, Trade Indicators & Signals</li>
-    <li class="w3-padding-16"><b> All Access to 0x</b> Tools</li>
-    <li class="w3-padding-16"><b>All</b> 0xTemplates (Smart contract, CoinGenration or Meta Data, Nft Creation, Futures Strategies)</li>
-    <li class="w3-padding-16"><b>Endless</b> Code </li>
-    <li class="w3-padding-16"><b>Endless</b> Support</li>
-    <li class="w3-padding-16">
-     <h3 class="w3-wide"><i class="fa fa-usd"></i> 25</h3>
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Trader</p>
+        </li>
+        <li class="w3-padding-16"><b>Newsletter</b> Market Updates & Trade Signals</li>
+        <li class="w3-padding-16"><b>Discord + Advanced  </b><b> Access</b> to our learning courses and docs</li>
+        <li class="w3-padding-16"><b>25</b> 0xTemplates (Smart contract, CoinGenration or Meta Data, Nft Creation, Futures Strategies)</li>
+        <li class="w3-padding-16"><b>10</b> Coding Choices</li>
+		<li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
           <span class="w3-opacity">per month</span>
-    </li>
-    <li class="w3-theme-l5 w3-padding-24">
-      <!-- PayPal Button -->
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="YOUR_HOSTED_BUTTON_ID">
-        <button class="w3-button w3-teal w3-padding-large" type="submit">
-          <i class="fa fa-paypal"></i> Pay with PayPal
-        </button>
-      </form>
+        </li>
+        	<li class="w3-theme-l5 w3-padding-24">
+                <!-- PayPal Button -->
+     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="M7P26XW3JJM8E" />
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Subscribe" />
+</form>
       <!-- CashApp Link (Replace with your CashApp link) -->
-      <a href="https://cash.app/$YourCashApp" target="_blank" class="w3-button w3-teal w3-padding-large">
+      <a href="https://cash.app/$Radical0xEd" target="_blank" class="w3-button w3-green w3-padding-large">
         <i class="fa fa-money"></i> Pay with CashApp
       </a>
-      <!-- Credit Card Payment (This will depend on your payment processor) -->
-      <button class="w3-button w3-teal w3-padding-large" onclick="openCreditCardForm()">
-        <i class="fa fa-credit-card"></i> Pay with Credit Card
-      </button>
-      <!-- Solana Wallet Connect Button -->
+<!-- Credit Card Payment Modal (hidden by default) -->
+<div id="creditCardPaymentModal" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+    <header class="w3-container w3-teal"> 
+      <span onclick="document.getElementById('creditCardPaymentModal').style.display='none'" 
+            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2>Enter Credit Card Details</h2>
+    </header>
+    <div class="w3-container">
+      <form action="your_server_side_processing_script" method="post">
+        <!-- Include form fields for credit card details -->
+        <label for="cc-name">Name on Card</label>
+        <input type="text" id="cc-name" name="cardname" required>
+
+        <label for="cc-number">Credit Card Number</label>
+        <input type="text" id="cc-number" name="cardnumber" required>
+
+        <label for="cc-exp">Expiry Date</label>
+        <input type="text" id="cc-exp" name="expdate" required>
+
+        <label for="cc-cvv">CVV</label>
+        <input type="text" id="cc-cvv" name="cvv" required>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w3-button w3-teal w3-padding-large w3-margin-top">
+          <i class="fa fa-credit-card"></i> Submit Payment
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Button to Open the Modal -->
+<button class="w3-button w3-blue w3-padding-large" onclick="openCreditCardForm()">
+  <i class="fa fa-credit-card"></i> Pay with Credit Card
+</button>
+
+<script>
+// Function to open the credit card payment modal
+function openCreditCardForm() {
+  document.getElementById('creditCardPaymentModal').style.display='block';
+}
+</script>
+<!-- Solana Wallet Connect Button -->
+<button class="w3-button w3-teal w3-padding-large" onclick="document.getElementById('solanaPaymentModal').style.display='block'">
+  <i class="fa fa-wallet"></i> Pay with Solana
+</button>
+
+<!-- Solana Payment Modal -->
+<div id="solanaPaymentModal" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+    <header class="w3-container w3-teal"> 
+      <span onclick="document.getElementById('solanaPaymentModal').style.display='none'" 
+            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2>Connect Solana Wallet</h2>
+    </header>
+    <div class="w3-container">
+      <p>Please connect your Solana wallet to proceed with the payment.</p>
+      <!-- Add any additional instructions or information here -->
       <button class="w3-button w3-teal w3-padding-large" onclick="connectSolanaWallet()">
-        <i class="fa fa-wallet"></i> Pay with Solana
+        <i class="fa fa-wallet"></i> Connect Wallet
       </button>
-    </li>
-  </ul>
+    </div>
+  </div>
 </div>
 
 <script>
-// Function to handle credit card payment form
-function openCreditCardForm() {
-  // Open credit card form logic here
+// Function to handle Solana wallet connection
+function connectSolanaWallet() {
+  // Close the modal
+  document.getElementById('solanaPaymentModal').style.display='none';
+  
+  // Example logic (you'll need to replace this with actual Solana wallet integration)
+  // Assume you're using a Solana wallet adapter library (e.g., @solana/wallet-adapter)
+  const solanaWallet = new SolanaWalletAdapter();
+
+  // Connect to the user's Solana wallet
+  solanaWallet.connect().then(() => {
+    // Wallet connected successfully
+    // Now you can initiate the payment transaction
+    const recipientAddress = '6Ddkx3RJWWQHkbaChPbqeezfJSzGxMv4sNyqceD8o6GA';
+    const amountInSOL = 25; // Amount in SOL (adjust as needed)
+
+    // Example: Initiate a payment transaction
+    solanaWallet.sendPayment(recipientAddress, amountInSOL).then(() => {
+      // Payment successful
+      alert(`Payment of ${amountInSOL} SOL sent to ${recipientAddress}`);
+    }).catch((error) => {
+      // Handle payment error
+      console.error('Payment error:', error);
+    });
+  }).catch((error) => {
+    // Handle wallet connection error
+    console.error('Wallet connection error:', error);
+  });
 }
 </script>
+
+
+
+</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Developer</p>
+        </li>
+        <li class="w3-padding-16"><b>All Access</b>  Market Updates, Trade Indicators & Signals</li>
+        <li class="w3-padding-16"><b> All Access to 0x</b> Tools</li>
+        <li class="w3-padding-16"><b>All</b> 0xTemplates (Smart contract, CoinGenration or Meta Data, Nft Creation, Futures Strategies)</li>
+        <li class="w3-padding-16"><b>Endless</b> Code </li>
+		<li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+       	<li class="w3-theme-l5 w3-padding-24">
+              <!-- PayPal Button -->
+     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="M7P26XW3JJM8E" />
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribe_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Subscribe" />
+</form>
+      <!-- CashApp Link (Replace with your CashApp link) -->
+      <a href="https://cash.app/$Radical0xEd" target="_blank" class="w3-button w3-green w3-padding-large">
+        <i class="fa fa-money"></i> Pay with CashApp
+      </a>
+<!-- Credit Card Payment Modal (hidden by default) -->
+<div id="creditCardPaymentModal" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+    <header class="w3-container w3-teal"> 
+      <span onclick="document.getElementById('creditCardPaymentModal').style.display='none'" 
+            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2>Enter Credit Card Details</h2>
+    </header>
+    <div class="w3-container">
+      <form action="your_server_side_processing_script" method="post">
+        <!-- Include form fields for credit card details -->
+        <label for="cc-name">Name on Card</label>
+        <input type="text" id="cc-name" name="cardname" required>
+
+        <label for="cc-number">Credit Card Number</label>
+        <input type="text" id="cc-number" name="cardnumber" required>
+
+        <label for="cc-exp">Expiry Date</label>
+        <input type="text" id="cc-exp" name="expdate" required>
+
+        <label for="cc-cvv">CVV</label>
+        <input type="text" id="cc-cvv" name="cvv" required>
+
+        <!-- Submit Button -->
+        <button type="submit" class="w3-button w3-teal w3-padding-large w3-margin-top">
+          <i class="fa fa-credit-card"></i> Submit Payment
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Button to Open the Modal -->
+<button class="w3-button w3-blue w3-padding-large" onclick="openCreditCardForm()">
+  <i class="fa fa-credit-card"></i> Pay with Credit Card
+</button>
+
+<script>
+// Function to open the credit card payment modal
+function openCreditCardForm() {
+  document.getElementById('creditCardPaymentModal').style.display='block';
+}
+</script>
+
+<!-- Solana Wallet Connect Button -->
+<button class="w3-button w3-teal w3-padding-large" onclick="document.getElementById('solanaPaymentModal').style.display='block'">
+  <i class="fa fa-wallet"></i> Pay with Solana
+</button>
+
+<!-- Solana Payment Modal -->
+<div id="solanaPaymentModal" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+    <header class="w3-container w3-teal"> 
+      <span onclick="document.getElementById('solanaPaymentModal').style.display='none'" 
+            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+      <h2>Connect Solana Wallet</h2>
+    </header>
+    <div class="w3-container">
+      <p>Please connect your Solana wallet to proceed with the payment.</p>
+      <!-- Add any additional instructions or information here -->
+      <button class="w3-button w3-teal w3-padding-large" onclick="connectSolanaWallet()">
+        <i class="fa fa-wallet"></i> Connect Wallet
+      </button>
+    </div>
+  </div>
+</div>
+
 <script>
 // Function to handle Solana wallet connection
 function connectSolanaWallet() {
-  // Connect to Solana wallet logic here
+  // Close the modal
+  document.getElementById('solanaPaymentModal').style.display='none';
+  
+  // Example logic (you'll need to replace this with actual Solana wallet integration)
+  // Assume you're using a Solana wallet adapter library (e.g., @solana/wallet-adapter)
+  const solanaWallet = new SolanaWalletAdapter();
+
+  // Connect to the user's Solana wallet
+  solanaWallet.connect().then(() => {
+    // Wallet connected successfully
+    // Now you can initiate the payment transaction
+    const recipientAddress = '6Ddkx3RJWWQHkbaChPbqeezfJSzGxMv4sNyqceD8o6GA';
+    const amountInSOL = 25; // Amount in SOL (adjust as needed)
+
+    // Example: Initiate a payment transaction
+    solanaWallet.sendPayment(recipientAddress, amountInSOL).then(() => {
+      // Payment successful
+      alert(`Payment of ${amountInSOL} SOL sent to ${recipientAddress}`);
+    }).catch((error) => {
+      // Handle payment error
+      console.error('Payment error:', error);
+    });
+  }).catch((error) => {
+    // Handle wallet connection error
+    console.error('Wallet connection error:', error);
+  });
 }
 </script>
+
+
 </div>
+        </li>
+      </ul>
+    </div>
 	</body>
 	
 	
 	</html>
-	
-	
